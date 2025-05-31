@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de celulares</title>
+</head>
+
+<body>
+    <header><strong>Cadastro de celulares</strong></header><br><br>
+    <form >
+      <label for="marca">Ecolha a marca: </label>
+        <select id="marca" name="opções" >
+            <option value="Samsung">Samsung</option>
+            <option value="iphone">iphone</option>
+            <option value="Motorola">Motorola</option>
+            <option value="LG">LG</option>
+        </select><br><br>
+
+        <label type="text"for="modelo">
+        <input type="text" id="modelo" name="modelo" placeholder="Digite o modelo">
+</label><br><br>
+
+        <label type="text"for="cor">
+        <input type="text" id="cor" name="cor" placeholder="Digite a cor">
+</label>
+<br><br>
+        <label for="preco" id="preco">
+        <input type="number" id="preco" name="preco" placeholder="Digite o preço">
+</label><br><br>
+
+        <label >
+            <input type="radio" name="estado_celular" value="novo">
+            Novo
+        </label>
+      <label for="estado_celular" id="estado_celular" >
+        <input type="radio" name="estado_celular" value="usado">
+        Usado
+      </label><br><br>
+
+    <label for="demais informacoes" id="demais informacoes">
+        Demais informações: <br><br>
+
+<textarea type="text" name="demais informaçoes" id="demais informaçoes"></textarea>
+</label><br><br>
+
+<button type="submit" >salvar</button>
+<button type="button">Voltar</button>
+
+     
+    </form>
+</body>
+</html>
