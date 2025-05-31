@@ -1,0 +1,27 @@
+body{
+  margin: 1px;
+  padding: 0%;
+  background-color: rgb(130, 130, 243);
+  background-image: url(fundo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;;
+
+}
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+
+}
+p{
+    background-color: aqua;
+}
+
+h1{
+    text-align: center;
+    color: blue;
+}
