@@ -42,3 +42,22 @@ button[type="button"]{
 button[type="submit"]{
     background-color: #555;
 }
+table{
+    width: 90%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border: 1px solid #ccc;/*borda aos redor da tabela*/
+}
+th, td{
+    padding: 12px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+/*atlterar o estilo ao passar o mouse*/
+tr:hover{
+    background-color: #5d4cf1;
+}
+h1{
+    text-align: center;/*alinhar titulo no centro*/
+
+}

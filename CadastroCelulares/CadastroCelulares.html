@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro de celulares</title>
+    <link rel="stylesheet" href="CadastroCelulares.css">
 </head>
 
 <body>
     <header><strong>Cadastro de celulares</strong></header><br><br>
     <form >
-      <label for="marca">Ecolha a marca: </label>
+      <label id="marca" for="marca">Ecolha a marca: </label>
         <select id="marca" name="opções" >
             <option value="Samsung">Samsung</option>
             <option value="iphone">iphone</option>
@@ -17,15 +18,15 @@
             <option value="LG">LG</option>
         </select><br><br>
 
-        <label type="text"for="modelo">
+        <label id="modelo" type="text"for="modelo">
         <input type="text" id="modelo" name="modelo" placeholder="Digite o modelo">
 </label><br><br>
 
-        <label type="text"for="cor">
+        <label id="cor" type="text"for="cor">
         <input type="text" id="cor" name="cor" placeholder="Digite a cor">
 </label>
 <br><br>
-        <label for="preco" id="preco">
+        <label id="preco" for="preco" id="preco">
         <input type="number" id="preco" name="preco" placeholder="Digite o preço">
 </label><br><br>
 
@@ -38,7 +39,7 @@
         Usado
       </label><br><br>
 
-    <label for="demais informacoes" id="demais informacoes">
+    <label  for="demais informacoes" id="demais informacoes">
         Demais informações: <br><br>
 
 <textarea type="text" name="demais informaçoes" id="demais informaçoes"></textarea>
@@ -46,8 +47,66 @@
 
 <button type="submit" >salvar</button>
 <button type="button">Voltar</button>
-
-     
     </form>
+    <title id="listagem">Listagem de celulares</title>
+    <h1>Celulares Cadastrados</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>marca</th>
+            <th>modelo</th>
+              <th>Cor</th>
+                <th>Valor</th>
+                  <th>Estado</th>
+                    <th>Demais informações</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Samsung</td>
+          <td>Galaxy S21</td>
+          <td>Preto</td>
+          <td>R$ 3.500,00</td>
+          <td>Novo</td>
+          <td>128GB</td>
+        </tr>
+
+        <tr>
+          <td>Motorola</td>
+          <td>Motorola Edge</td>
+          <td>Prata</td>
+          <td>R$ 2.800,00</td>
+          <td>Novo</td>
+          <td>256GB</td>
+        </tr>
+
+        <tr>
+          <td>Xiomi</td>
+           <td>Redmi Note 10</td>
+            <td>Branco</td>
+             <td>R$ 1.000,00</td>
+              <td>Usado</td>
+               <td>128GB</td>
+
+        </tr>
+        <tr>
+          <td>Apple</td>
+           <td>iPhone 13</td>
+            <td>Preto</td>
+             <td>R$ 5.00,00</td>
+              <td>Novo</td>
+               <td>256GB</td>
+        </tr>
+
+        <tr>
+          <td>LG</td>
+          <td>LG K52</td>
+          <td>Prata</td>
+          <td>R$ 700,00</td>
+          <td>Usado</td>
+          <td>64 GB EXP</td>
+        </tr>
+      </tbody>
+    </table>
 </body>
 </html>
