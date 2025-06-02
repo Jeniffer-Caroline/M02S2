@@ -61,3 +61,9 @@ h1{
     text-align: center;/*alinhar titulo no centro*/
 
 }
+.botao.container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 15px;
+}
